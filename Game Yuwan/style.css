@@ -1,0 +1,169 @@
+.main {
+    margin: 0px;
+}
+
+.backgroundBox {
+    width: 100%;
+    height: 100vh;
+    background-image: url("background.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.boy {
+    height: 200px;
+    position: absolute;
+    margin-top: 368px;
+}
+
+
+@font-face {
+    font-family: "lcd";
+    src: url("LcdSolid-VPzB.ttf");
+}
+
+.score{
+    position: absolute;
+    font-size: 35px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-family: "lcd";
+}
+
+.box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url("glow.gif");
+    background-size: 80px 100%;
+    margin-top: 460px;
+}
+
+.endGame{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "lcd";
+    color: white;
+    visibility: hidden;
+}
+
+.btn{
+    background-color: transparent;
+    width: 200px;
+    height: 80px;
+    border-color: transparent;
+    color: black;
+    font-family: "lcd";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.endGame2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "lcd";
+    color: white;
+    visibility: hidden;
+}
+
+.startGame{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: "lcd";
+    color: white;
+}
+
+.btn2{
+    background-color: transparent;
+    width: 250px;
+    height: 80px;
+    border-color: transparent;
+    color: white;
+    font-family: "lcd";
+    font-size: 25px;
+}
+
+.startGame2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: "lcd";
+    color: white;
+}
+
+.wdn{
+    height: 400px;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 87px;
+}
+
+.wdn2{
+    height: 400px;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 87px;
+}
+
+.endScore{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.gamename{
+    font-size: 30px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 35px;
+    font-family: "lcd";
+    font-weight: bold;
+    color: rgb(184, 0, 0);
+}
+
+.boyhead{
+    height: 50px;
+    margin-left: 935px;
+    margin-top: 23px;
+    position: absolute;
+}
+
+.bird{
+    background-image: url("bird.gif");
+    height: 110px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.bird2{
+    background-image: url("bird.gif");
+    height: 70px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 90px;
+}

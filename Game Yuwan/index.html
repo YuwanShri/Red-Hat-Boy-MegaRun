@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>RedHat Boy MegaRun</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="image.ico" />
+</head>
+
+<body class="main" onkeyup="keyCheck(event);" onload="createBoxes();">
+    
+    <div class="backgroundBox" id="backgroundBox">
+
+        <p class="score" id="score">0</p>
+        
+        <p class="gamename">RedHat Boy MegaRun</p>
+
+        <img src="boyhead.png" class="boyhead" />
+        
+    </div>
+    
+    
+    <img src="Run (1).png" class="boy" id="boy" />
+
+    <div class="endGame2" id="endGame2">
+        
+        <img src="woodenlabel.png" class="wdn2" />
+
+    </div>
+
+    <div id="endGame" class="endGame">
+
+        <div>Game Over!</div>
+        <div>-Your score-</div>
+        <div id="endScore" class="endScore">0</div>
+        <button class="btn" onclick="reload();">'TRY AGAIN'</button>
+
+    </div>
+    
+    <div class="startGame2" id="startGame2">
+        
+        <img src="woodenlabel.png" class="wdn" />
+
+    </div>
+
+    <div class="startGame" id="startGame">
+        
+        <button class="btn2">Press 'ENTER' to start the Game.</button>
+        
+    </div>
+
+    <img src="bird.gif" class="bird" id="bird"/>
+    <img src="bird.gif" class="bird2" id="bird"/>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
